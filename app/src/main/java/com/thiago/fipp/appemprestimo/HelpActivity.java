@@ -34,6 +34,7 @@ public class HelpActivity extends AppCompatActivity {
                 break;
             case R.id.itHelpClose:
                 finish();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }

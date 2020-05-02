@@ -42,6 +42,7 @@ public class InstallmentsActivity extends AppCompatActivity {
                 break;
             case R.id.itInstallmentsClose:
                 finish();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }

@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.itClose:
                 finish();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
